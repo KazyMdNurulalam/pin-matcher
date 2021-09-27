@@ -15,7 +15,7 @@ body {
     padding: 30px;
     text-align: center;
 }
-.generate-btn{
+#generate-btn{
     margin-top: 140px;
     width: 180px;
     padding: 50px;
@@ -27,7 +27,7 @@ body {
     font-size: 20px;
     text-align: center;
 }
-.generate-btn:focus{
+#generate-btn:focus{
     outline: none;
     box-shadow: none;
 }
@@ -79,7 +79,7 @@ cursor: pointer;
 .blink-me {
 color: #E0B612;
 }
-.submit-btn {
+#submit-btn {
     border: none;
     margin-top: 20px;
     padding: 10px 120px;
@@ -88,6 +88,7 @@ color: #E0B612;
     color: #fff;
 }
 .notify {
+    display: none;
     color: #fff;
     text-align: center;
     margin: 0 auto;
